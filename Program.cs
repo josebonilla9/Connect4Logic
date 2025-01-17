@@ -12,7 +12,7 @@ class Program
         int currentPlayer = 1;
         bool gameOver = false;
 
-        string apiKey = "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"; //Aquí va la API Key
+        string apiKey = ""; //Aquí va la API Key
         AIProgram aiProgram = new AIProgram(apiKey);
 
         game.Board.PrintBoard();
